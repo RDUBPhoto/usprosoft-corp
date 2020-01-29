@@ -1,28 +1,45 @@
 <template>
-  <div id="app">
-    <Navigation></Navigation>
-      <router-view/>
+  <div class="container">
+    <section class="navigation d-flex justify-content-between align-items-center">
+        <div>
+          <router-link to="/">
+            <img class="mr-5" src="../assets/logo.svg" height="85px;">
+          </router-link>
+        </div>
+        <div class="d-flex align-items-center">
+          <ul class="d-flex justify-content-center mr-3">
+            <li class="d-flex align-items-center">
+              <router-link to="/capabilities">Capabilities</router-link>
+            </li>
+            <li class="d-flex align-items-center">
+              <router-link to="/work">Work</router-link>
+            </li>
+            <li class="d-flex align-items-center">
+              <router-link to="/about">About</router-link>
+            </li>
+            <li class="d-flex align-items-center">
+              <router-link to="/team">Team</router-link>
+            </li>
+          </ul>
+          <button class="btn btn-outline-primary">Contact Us</button>
+        </div>
+      </section>
   </div>
 </template>
 
 <script>
-import Navigation from '@/components/Navigation.vue' 
 export default {
-
-components: {
-  Navigation,
+  name: 'Navigation',
+  props: {
+    
   }
 }
 </script>
 
-<style lang="scss">
-@import './assets/scss/styles.scss';
-html, body {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  padding: 0;
-}
+<style lang="scss" scoped>
+@import '../assets/scss/styles.scss';
   .navigation {
+    top: 18px;
     width: 100%;
     text-align: center;
     background-color: #fff;
@@ -33,15 +50,14 @@ html, body {
       padding: 0;
       li {
         list-style: none;
-        padding: 0 32px;
-        font-weight: 600;
         font-size: 18px;
+        padding: 16px;
         a {
           position: relative;
-          color: #000;
+          color: #333;
           text-decoration: none;
           &:hover {
-            color: #000;
+            color: #333;
             cursor: pointer;
           }
           &:before {
