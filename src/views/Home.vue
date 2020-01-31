@@ -126,13 +126,11 @@
 
 <script>
 // @ is an alias to /src
-import Home from '@/components/Home.vue';
 import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'home',
   components: {
-    Home,
     Footer
   }
 }
