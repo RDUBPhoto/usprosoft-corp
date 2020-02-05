@@ -8,7 +8,7 @@
         </div>
         <div class="d-flex align-items-center">
           <ul class="d-flex justify-content-center mr-3">
-            <li class="d-flex align-items-center">
+            <!-- <li class="d-flex align-items-center">
               <router-link to="/capabilities">Capabilities</router-link>
             </li>
             <li class="d-flex align-items-center">
@@ -19,7 +19,7 @@
             </li>
             <li class="d-flex align-items-center">
               <router-link to="/team">Team</router-link>
-            </li>
+            </li> -->
           </ul>
           <button class="btn btn-outline-primary">Contact Us</button>
         </div>

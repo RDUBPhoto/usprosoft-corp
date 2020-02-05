@@ -3,19 +3,19 @@
     <div class="home">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-sm-12">
-            <div class="d-flex flex-column">
+          <div class="col-md-5 col-sm-12 d-flex">
+            <div class="d-flex flex-column justify-content-center align-items-center">
               <div class="text-white hero-text">
                 We're a software development company
               </div>
-              <div class="hero-tagline">
+              <!-- <div class="hero-tagline">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-md-7 col-sm-12">
-            <div class="d-flex">
-              Some Image Here
+            <div class="d-flex justify-content-center">
+              <img class="" src="../assets/banner-image.png" height="372">
             </div>
           </div>
         </div>
@@ -29,7 +29,8 @@
           <p class="h5 mb-4">We focus on Microsoft Technologies like .NET, C#, SQL Server, ASP.net and other front end frameworks such as Angular</p>
         </div>
       </div>
-      <div class="row mt-5">
+
+      <!-- <div class="row mt-5">
         <div class="col">
           <div class="card bg-light">
             <img src="https://picsum.photos/500/200?random=1" height="250px" class="card-img-top" alt="...">
@@ -68,14 +69,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+
       <div class="row mt-5 mb-5">
         <div class="col d-flex justify-content-center align-items-center">
-          <button class="btn btn-danger btn-lg">Learn more about us</button>
+          <button class="btn btn-danger btn-lg w-25">Contact us</button>
         </div>
       </div>
     </div>
-    <div class="container-fluid p-0">
+
+    <!-- <div class="container-fluid p-0">
       <div class="secondary-content">
         <div class="container pb-5">
           <div class="row">
@@ -103,6 +106,7 @@
         </div>
       </div>
     </div>
+
     <div class="container-fluid p-0">
       <div class="home">
         <div class="container">
@@ -117,8 +121,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
+    </div> -->
+
+    <div class="container-fluid border-top">
       <Footer></Footer>
     </div>
   </div>
@@ -141,12 +146,12 @@ export default {
 .home {
   width: 100%;
   background-color: $primary;
-  padding: 40px;
   .hero-text {
     font-weight: 900;
-    font-size: 45px;
+    font-size: 48px;
     line-height: 55px;
     margin-bottom: 10px;
+    padding: 40px 0;
   }
   .hero-tagline {
     font-weight: 600;

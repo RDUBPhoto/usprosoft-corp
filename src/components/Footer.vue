@@ -1,17 +1,8 @@
 <template>
   <div class="container mb-5">
     <div class="row mt-3">
-      <div class="col d-flex align-items-center justify-content-center">
-        <h6>Something</h6>
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        <h6>Something</h6>
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        <h6>Something</h6>
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        <h6>Something</h6>
+      <div class="col d-flex align-items-center justify-content-end">
+        <div class="small">Copyright © {{ new Date().getFullYear() }} US ProSoft</div>
       </div>
     </div>
   </div>
