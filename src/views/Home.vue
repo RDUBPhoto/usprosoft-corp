@@ -15,7 +15,7 @@
           </div>
           <div class="col-md-7 col-sm-12">
             <div class="d-flex justify-content-center">
-              <img class="" src="usprosoft-corp/img/banner-image.png" height="372">
+              <img class="" src="img/banner-image.png" height="372">
             </div>
           </div>
         </div>
